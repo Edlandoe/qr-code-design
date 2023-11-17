@@ -32,15 +32,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### Useful resources
-
-- [Tailwind Docs](https://tailwindcss.com/docs) - This helped me with alot of the core classes to use in tailwind.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 

@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  margin: 0 1rem;
   background-color: hsl(212, 45%, 89%);
   font-family: Outfit;
 }
@@ -18,7 +19,7 @@ body {
   border-radius: 1.5rem;
   text-align: center;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  max-width: 25rem;
+  max-width: 23rem;
 }
 
 .qr-code-container img {
@@ -36,13 +37,14 @@ body {
   color: hsl(218, 44%, 22%);
   margin-top: 0;
   margin-bottom: 0.75rem;
-  margin-left: 0.75rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .qr-code-container p {
   font-size: 1rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
   color: hsl(220, 15%, 55%);
   margin-top: 0;
   margin-bottom: 1.5rem;
