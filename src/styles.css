@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+}
+
+/* QR Code Container */
+.qr-code-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  background-color: white;
+  padding: 1rem;
+  border-width: 1px;
+  border-radius: 1.5rem;
+  text-align: center;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  max-width: 25rem;
+}
+
+.qr-code-container img {
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+  border-width: 1px;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.qr-code-container h2 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2.25rem;
+  color: hsl(218, 44%, 22%);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.qr-code-container p {
+  font-size: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  color: hsl(220, 15%, 55%);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Attribution */
+.attribution {
+  margin-top: auto;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #2563EB;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
